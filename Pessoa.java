@@ -5,8 +5,8 @@ public class Pessoa {
 	int idade;
 	String endereco;
 	String profissao;
-	String CPF;
-	String RG;
+	String cpf;
+    String rg;
 
 	public String getNome() {
 		return nome;
@@ -32,16 +32,16 @@ public class Pessoa {
 	public void setProfissao(String profissao) {
 		this.profissao = profissao;
 	}
-	public String getCPF() {
-		return cpf;
-	}
-	public void setCPF(String cpf) {
-		this.cpf = cpf;
-	}
-	public String getRG() {
-		return rg;
-	}
-	public void setRG(String rg) {
-		this.rg = rg;
-	}
+	public String getCpf() {
+        return cpf;
+    }
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+    public String getRg() {
+        return rg;
+    }
+    public void setRg(String rg) {
+        this.rg = rg;
+    }
 }
