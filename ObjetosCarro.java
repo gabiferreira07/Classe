@@ -5,7 +5,6 @@ public class ObjetosCarro {
 	public static void main(String[] args) {
 		 // Criando objetos da classe Carro
         Carro carro1 = new Carro();
-        Carro carro2 = new Carro();
 
         // OBJETO 1
         carro1.setMarca("Toyota");
